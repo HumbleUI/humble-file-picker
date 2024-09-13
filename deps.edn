@@ -1,0 +1,10 @@
+{:deps
+ {org.clojure/clojure {:mvn/version "1.12.0"}
+  io.github.humbleui/humbleui
+  {:git/sha "46ac8a2878381c25c139d342af89e2f7aa7eec71"
+   #_#_:local/root "/ws/humbleui"}}
+ :aliases
+ {:dev
+  {:main-opts   ["-m" "nrepl.cmdline"]
+   :extra-paths ["dev"]
+   :extra-deps  {nrepl/nrepl {:mvn/version "1.3.0"}}}}}
