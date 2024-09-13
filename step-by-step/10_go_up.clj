@@ -69,11 +69,10 @@
 
 (defn -main [& args]
   (ui/start-app!
-    (def window
-      (ui/window
-        {:title    "File picker"
-         :mac-icon "resources/icon.icns"}
-        #'app))))
+    (ui/window
+      {:title    "File picker"
+       :mac-icon "resources/icon.icns"}
+      #'app)))
 
 (comment
   ;; Start app

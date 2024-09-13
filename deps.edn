@@ -1,7 +1,7 @@
 {:deps
  {org.clojure/clojure {:mvn/version "1.12.0"}
   io.github.humbleui/humbleui
-  {:git/sha "46ac8a2878381c25c139d342af89e2f7aa7eec71"
+  {:git/sha "592fd124c84915cf14909584535469b287d577e9"
    #_#_:local/root "/ws/humbleui"}}
  :aliases
  {:dev
